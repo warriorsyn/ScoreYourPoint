@@ -9,32 +9,29 @@ namespace ScoreYourPointApi.Domain
     public class Event
     {
 
-        public long Id { get; set; } // The event unique identifier
+        public long Id { get; set; }
 
-        public long UserId { get; set; } // The user identifier
+        public long UserId { get; set; }
 
-        public User User { get; set; } // The user object for referency
+        public User User { get; set; }
 
-        public String Name { get; set; } // Event name
+        public string Name { get; set; }
 
-        public String? Description { get; set; } // Event description
+        public string? Description { get; set; }
 
-        public sbyte ParticipantsAmount { get; set; } // Amount of players participating in the event
+        public sbyte ParticipantsAmount { get; set; }
 
-        public bool IsPublic { get; set; } // If public, all user profiles can see the displayed event in the application
-                                           // Else, only participating users can view
+        public bool IsPublic { get; set; }
 
-        public String? Photo { get; set; } // The event photo image
+        public string? Photo { get; set; }
 
-        public DateTime StartDateTime { get; set; } // The starting date of the event
+        public DateTime StartDateTime { get; set; }
 
-        public DateTime EndDateTime { get; set; } // The end date of the event
+        public DateTime EndDateTime { get; set; }
 
-        // TODO: Check this field later
+        public string Status { get; set; } 
 
-        public String Status { get; set; } // Event status
-
-        public sbyte Type { get; set; } // Event type
+        public sbyte Type { get; set; }
 
     }
 }

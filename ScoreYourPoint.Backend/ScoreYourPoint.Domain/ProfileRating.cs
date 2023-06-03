@@ -8,19 +8,19 @@ namespace ScoreYourPointApi.Domain
     public class ProfileRating
     {
 
-        public long Id { get; set; } // The profile rating unique identifier
+        public long Id { get; set; }
 
-        public long UserId { get; set; } // The user identifier
+        public long UserId { get; set; }
 
-        public User User { get; set; } // The user object for referency
+        public User User { get; set; } 
 
-        public long ProfileId { get; set; } // The profile identifier
+        public long ProfileId { get; set; }
 
-        public Profile Profile { get; set; } // The profile object for referency
+        public Profile Profile { get; set; }
 
-        public float Rate { get; set; } // The profile rating float number (between 0.0 and 5.0)
+        public float Rate { get; set; }
 
-        public String Description { get; set; } // The profile rating description
+        public string Description { get; set; }
 
     }
 }

@@ -3,9 +3,9 @@
     public class Sport
     {
 
-        public long Id { get; set; } // The sport unique identifier
+        public long Id { get; set; }
 
-        public string Name { get; set; } // The sport name
+        public string Name { get; set; }
 
     }
 }

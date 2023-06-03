@@ -3,15 +3,15 @@
     public class SportPosition
     {
 
-        public long Id { get; set; } // The sport positions unique identifier
+        public long Id { get; set; }
 
-        public long SportId { get; set; } // The sport identifier
+        public long SportId { get; set; }
 
-        public Sport Sport { get; set; } // The sport object for referency
+        public Sport Sport { get; set; }
 
-        public long PositionId { get; set; } // The position identifier
+        public long PositionId { get; set; }
 
-        public Position Position { get; set; } // The position object for referency
+        public Position Position { get; set; }
 
     }
 }

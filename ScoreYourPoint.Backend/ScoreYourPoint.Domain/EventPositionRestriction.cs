@@ -5,19 +5,19 @@ namespace ScoreYourPointAPI.Domain
     public class EventPositionRestriction
     {
 
-        public long Id { get; set; } // The event position restriction unique identifier
+        public long Id { get; set; }
 
-        public sbyte PositionLimitAmount { get; set; } // The position amount limit
+        public sbyte PositionLimitAmount { get; set; }
 
-        public char Team { get; set; } // The event participation character
+        public char Team { get; set; }
 
-        public long SportPositionId { get; set; } // The sport position identifier
+        public long SportPositionId { get; set; }
 
-        public SportPosition SportPosition { get; set; } // The sport position object for referency
+        public SportPosition SportPosition { get; set; }
 
-        public long EventId { get; set; } // The event identifier
+        public long EventId { get; set; }
 
-        public Event Event { get; set; } // The event object for referency
+        public Event Event { get; set; }
 
     }
 }

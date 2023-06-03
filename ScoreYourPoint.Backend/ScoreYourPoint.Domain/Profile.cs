@@ -8,23 +8,23 @@ namespace ScoreYourPointApi.Domain
     public class Profile
     {
 
-        public long Id { get; set; } // The profile unique identifier
+        public long Id { get; set; }
 
-        public long UserId { get; set; } // The user identifier
+        public long UserId { get; set; }
 
-        public User User { get; set; } // The user object for referency
+        public User User { get; set; }
 
-        public String Name { get; set; } // The profile name
+        public string Name { get; set; }
 
-        public char Gender { get; set; } //  The user profile gender
+        public char Gender { get; set; }
 
-        public sbyte Age { get; set; } // The user profile age
+        public sbyte Age { get; set; }
 
-        public char LeftOrRight { get; set; } // Whether the player uses left or right side to play in the event
+        public char LeftOrRight { get; set; }
 
-        public float Height { get; set; } // The user profile height (cm)
+        public float Height { get; set; }
 
-        public float Weight { get; set; } // The user profile weight (kg)
+        public float Weight { get; set; }
 
     }
 }

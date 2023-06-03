@@ -7,13 +7,13 @@ namespace ScoreYourPointApi.Domain
 {
     public class User
     {
-        public long Id { get; set; } // The user unique identifier
+        public long Id { get; set; }
 
-        public String Email { get; set; } // The user e-mail credential
+        public string Email { get; set; }
 
-        public String Password { get; set; } // The user password crendential
+        public string Password { get; set; }
 
-        public bool IsActive { get; set; } // Whether user is active or not in the system
+        public bool IsActive { get; set; }
 
     }
 }

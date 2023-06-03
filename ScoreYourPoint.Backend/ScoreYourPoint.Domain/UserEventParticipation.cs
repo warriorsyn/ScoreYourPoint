@@ -5,17 +5,17 @@ namespace ScoreYourPointAPI.Domain
     public class UserEventParticipation
     {
 
-        public long Id { get; set; } // The user event participation unique identifier
+        public long Id { get; set; }
 
-        public char Team { get; set; } // The event participation character
+        public char Team { get; set; }
 
-        public long UserId { get; set; } // The user identifier
+        public long UserId { get; set; }
 
-        public User User { get; set; } // The user object for referency
+        public User User { get; set; }
 
-        public long EventId { get; set; } // The event identifier
+        public long EventId { get; set; }
 
-        public Event Event { get; set; } // The event object for referency
+        public Event Event { get; set; }
 
     }
 }
