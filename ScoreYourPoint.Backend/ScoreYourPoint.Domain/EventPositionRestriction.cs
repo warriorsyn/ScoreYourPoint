@@ -7,7 +7,7 @@ namespace ScoreYourPointAPI.Domain
 
         public long Id { get; set; }
 
-        public sbyte PositionLimitAmount { get; set; }
+        public int PositionLimitAmount { get; set; }
 
         public char Team { get; set; }
 

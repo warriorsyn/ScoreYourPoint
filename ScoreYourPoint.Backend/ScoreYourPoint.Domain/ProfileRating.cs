@@ -1,26 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿namespace ScoreYourPointApi.Domain;
 
-namespace ScoreYourPointApi.Domain
+public class ProfileRating
 {
-    public class ProfileRating
-    {
 
-        public long Id { get; set; }
+    public long Id { get; set; }
 
-        public long UserId { get; set; }
+    public long UserId { get; set; }
 
-        public User User { get; set; } 
+    public User User { get; set; }
 
-        public long ProfileId { get; set; }
+    public long ProfileId { get; set; }
 
-        public Profile Profile { get; set; }
+    public Profile Profile { get; set; }
 
-        public float Rate { get; set; }
+    public float Rate { get; set; }
 
-        public string Description { get; set; }
+    public string Description { get; set; }
 
-    }
 }
